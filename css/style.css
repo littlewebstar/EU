@@ -135,8 +135,8 @@ body {
 
 /* Fixed sidenav, full height */
 .sidenav {
-	height: 80%;
-	width: 220px;
+	height: 100%;
+	width: 320px;
 
 	z-index: 1;
 	top: 50;
@@ -176,11 +176,11 @@ body {
 }
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
-.dropdown-container {
+/* .dropdown-container {
 	display: none;
 	background-color: white;
 	padding-left: 8px;
-}
+} */
 
 /* Optional: Style the caret down icon */
 .fa-caret-down {
@@ -212,6 +212,10 @@ social media {
 	margin-top: 20px;
 	display: block;
 }
+
+
+
+/* Drop Down BTN Css Codes .... */
 
 .dropbtn {
 	background-color: #3498db;
@@ -255,4 +259,15 @@ social media {
 
 .show {
 	display: block;
+}
+
+
+/*  Slide IMG css codes ...*/
+
+img .slideshowimg{
+	height: 400px;
+}
+
+.dropmenu:hover{
+	background-color: burlywood;
 }
