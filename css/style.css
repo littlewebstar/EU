@@ -1,8 +1,9 @@
 .mainHeader {
-	margin: 10px 10px;
+	margin: auto;
+	width: 100%;
 }
 
-.logo img {
+.logo{
 	width: 120px;
 	height: 120px;
 	margin: 5px 100px 5px 110px;
@@ -19,15 +20,17 @@
 }
 
 /* Slideshow container */
-.slideshow-container {
+/* .slideshow-container {
 	max-width: 1000px;
 	position: relative;
 	margin: auto;
-}
+} */
 
 /* Hide the images by default */
 .mySlides {
 	display: none;
+	height: 100%;
+	width: 100%;
 }
 
 /* Next & previous buttons */
@@ -198,10 +201,11 @@ img {
 	width: 100%;
 }
 
-social media {
+.socialMedia {
 	background-color: white;
-	clear: both;
-	margin: 0 auto;
+	/* clear: both;
+	margin: 0 auto; */
+	text-align: center;
 }
 
 .footerD {
@@ -226,15 +230,15 @@ social media {
 	cursor: pointer;
 }
 
-.dropbtn:hover,
+/* .dropbtn:hover,
 .dropbtn:focus {
-	background-color: #2980b9;
-}
-
+	
+} */
+/* 
 .dropdown {
 	position: relative;
 	/* display: inline-block; */
-}
+
 
 .dropdown-content {
 	display: none;
@@ -265,9 +269,11 @@ social media {
 /*  Slide IMG css codes ...*/
 
 img .slideshowimg{
-	height: 400px;
-}
+	width: 1200px;
+} 
 
+
+/* Dropdown menu coloring ...*/
 .dropmenu:hover{
 	background-color: burlywood;
 }
